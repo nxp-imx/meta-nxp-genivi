@@ -1,3 +1,7 @@
+This Yocto layer provides support for building GENIVI on NXP i.MX6 with GPU hardware.
+It has been built only with the wayland backend. This is not tested and not supported.
+It is a DEMO only.
+
 
 Build instructions:
 
