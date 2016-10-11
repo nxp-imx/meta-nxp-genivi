@@ -16,7 +16,7 @@ Download the BSP Yocto Project Environment
 
 $: mkdir fsl-arm-yocto-bsp
 $: cd fsl-arm-yocto-bsp
-$: repo init -u http://sw-stash.freescale.net/scm/imx/fsl-arm-yocto-bsp.git -b imx-4.1.15-1.0.0_genivi-demo
+$: repo init -u git://git.freescale.com/imx/fsl-arm-yocto-bsp.git -b imx-4.1-krogoth -m imx-4.1.15-2.0.0-genivi-demo.xml
 $: repo sync
 
 Setup and Build for Wayland
