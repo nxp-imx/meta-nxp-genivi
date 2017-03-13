@@ -5,4 +5,5 @@ IMAGE_INSTALL_append += " systemd-ptest \
 			  openssl-ptest \
 			  libusb1-test \
 			  dbus-ptest \
+			  curl-test \
 			"
