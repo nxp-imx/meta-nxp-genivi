@@ -6,4 +6,5 @@ IMAGE_INSTALL_append += " systemd-ptest \
 			  libusb1-test \
 			  dbus-ptest \
 			  curl-test \
+			  glibc-test \
 			"
