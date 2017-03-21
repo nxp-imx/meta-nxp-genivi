@@ -7,4 +7,10 @@ IMAGE_INSTALL_append += " systemd-ptest \
 			  dbus-ptest \
 			  curl-test \
 			  glibc-test \
+			  dhcp-client \
+			  python-dbus python-pip python-pygobject \
+			  bluez5-test \
+			  ofono-tests \
+			  alsa-utils-speakertest \
+			  wayland-ivi-extension-test \
 			"
