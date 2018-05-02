@@ -48,6 +48,7 @@ echo -e "\n## GENIVI layers" >> conf/bblayers.conf
 echo "BBLAYERS += \" \${BSPDIR}/sources/meta-ivi/meta-ivi \"" >> conf/bblayers.conf
 echo "BBLAYERS += \" \${BSPDIR}/sources/meta-ivi/meta-ivi-bsp \"" >> conf/bblayers.conf
 echo "BBLAYERS += \" \${BSPDIR}/sources/meta-nxp-genivi \"" >> conf/bblayers.conf
+echo "BBLAYERS += \" \${BSPDIR}/sources/meta-gplv2 \"" >> $BUILD_DIR/conf/bblayers.conf
 
 echo -e "\nGENIVI layers added to bblayers.conf"
 
