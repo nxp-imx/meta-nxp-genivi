@@ -78,6 +78,7 @@ echo -e "\n## Genivi layers" >> $BUILD_DIR/conf/bblayers.conf
 echo "BBLAYERS += \" \${BSPDIR}/sources/meta-ivi/meta-ivi \"" >> $BUILD_DIR/conf/bblayers.conf
 echo "BBLAYERS += \" \${BSPDIR}/sources/meta-ivi/meta-ivi-bsp \"" >> $BUILD_DIR/conf/bblayers.conf
 echo "BBLAYERS += \" \${BSPDIR}/sources/meta-nxp-genivi \"" >> $BUILD_DIR/conf/bblayers.conf
+echo "BBLAYERS += \" \${BSPDIR}/sources/meta-gplv2 \"" >> $BUILD_DIR/conf/bblayers.conf
 
 echo done except for cleanup
 
