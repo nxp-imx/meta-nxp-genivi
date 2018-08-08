@@ -1,0 +1,2 @@
+
+EXTRA_OECMAKE_append = " -DWITH_MAN=OFF"
